@@ -7,8 +7,42 @@
     "contact": "Contact"
   },
   "Home": {
-    "title": "Hey there I'm Michelly",
-    "subtitle": "Systems Analyst and developer",
+    "title": "Hello, I'm Michelly",
+    "subtitle": "Systems Analyst and Developer",
     "alt": "Illustration of a young developer smiling while using an Apple laptop. She is wearing a black T-shirt with a minimalist logo and large headphones, sitting at a work desk. Her hair is long and curly, creating a relaxed and focused atmosphere."
-  }
+  },
+  "About": [
+    {
+      "title": "About Me",
+      "subtitle": "Michelly Nonato",
+      "username": "@MichellyNonatto",
+      "body": "iOS Developer at iFood Brazil and a graduating student in systems Analysis snd Development at IFSP Bragança",
+       "alt": "Illustration of a young developer smiling while using an Apple laptop. She is wearing a black T-shirt with a minimalist logo and large headphones, sitting at a work desk. Her hair is long and curly, creating a relaxed and focused atmosphere."
+    },
+    {
+      "title": "Education",
+      "subtitle": "IFSP - Camp Bragança Paulista",
+      "username": "Analysis and Systems Development",
+      "body": "Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit. Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit. Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit."
+    },
+    {
+      "title": "Goals",
+      "body": "Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit. Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit. Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit."
+    },
+    {
+      "title": "Awards",
+      "items": [
+        {
+          "title": "InterIF - 2023",
+          "subtitle": "Logic Championship",
+          "body": "Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit."
+        },
+        {
+          "title": "Proa - 2022",
+          "subtitle": "Outstanding Student",
+          "body": "Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit."
+        }
+      ]
+    }
+  ]
 }

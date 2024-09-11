@@ -1,7 +1,7 @@
 {
   "Navbar": {
-    "home": "Menu",
-    "about": "Sobre mim",
+    "home": "Início",
+    "about": "Sobre",
     "projects": "Projetos",
     "skills": "Habilidades",
     "contact": "Contato"
@@ -9,6 +9,43 @@
   "Home": {
     "title": "Olá, eu sou a Michelly",
     "subtitle": "Analista de Sistemas e desenvolvedora",
-    "alt": "Ilustração de uma jovem desenvolvedora sorrindo enquanto usa um laptop da Apple. Ela está usando uma camiseta preta com um logo minimalista e grandes fones de ouvido, sentada em uma mesa de trabalho. Seu cabelo é longo e encaracolado, criando uma atmosfera descontraída e focada."
-  }
+    "alt": "Ilustração de uma jovem desenvolvedora sorrindo enquanto usa um laptop da Apple. Ela está vestindo uma camiseta preta com um logotipo minimalista e grandes fones de ouvido, sentada em uma mesa de trabalho. Seu cabelo é longo e encaracolado, criando uma atmosfera relaxada e focada."
+  },
+  "About": [
+    {
+      "type": "Card",
+      "title": "Sobre Mim",
+      "subtitle": "Michelly Nonato",
+      "username": "@MichellyNonatto",
+      "body": "Desenvolvedora iOS no iFood Brasil e graduanda em Análise e Desenvolvimento de Sistemas pelo IFSP Bragança",
+       "alt": "Ilustração de uma jovem desenvolvedora sorrindo enquanto usa um laptop da Apple. Ela está vestindo uma camiseta preta com um logotipo minimalista e grandes fones de ouvido, sentada em uma mesa de trabalho. Seu cabelo é longo e encaracolado, criando uma atmosfera relaxada e focada."
+    },
+    {
+      "type": "Education",
+      "title": "Educação",
+      "subtitle": "IFSP - Campus Bragança Paulista",
+      "username": "Análise e Desenvolvimento de Sistemas",
+      "body": "Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit. Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit. Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit."
+    },
+    {
+      "type": "Goals",
+      "title": "Objetivos",
+      "body": "Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit. Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit. Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit."
+    },
+    {
+      "title": "Prêmios",
+      "items": [
+        {
+          "title": "InterIF - 2023",
+          "subtitle": "Campeonato de Lógica",
+          "body": "Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit."
+        },
+        {
+          "title": "Proa - 2022",
+          "subtitle": "Estudante Destaque",
+          "body": "Lorem ipsum dolor sit amet consectetur. Sapien vitae viverra nunc in. Volutpat viverra nullam ut at leo et metus sit."
+        }
+      ]
+    }
+  ]
 }
