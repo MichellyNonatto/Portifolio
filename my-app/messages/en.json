@@ -1,6 +1,9 @@
 {
-    "HomePage": {
-      "title": "Hello world!",
-      "about": "Go to the about page"
-    }
+  "Navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
   }
+}

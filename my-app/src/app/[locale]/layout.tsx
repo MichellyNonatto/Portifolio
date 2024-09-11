@@ -1,12 +1,11 @@
 import "../globals.css";
 import theme from "../lib/theme";
-import { Suspense } from "react";
+
 import type { Metadata } from "next";
-import { Skeleton } from "@mui/material";
-import { ThemeProvider } from "@mui/material/styles";
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import { ThemeProvider } from "@mui/material/styles";
+import Navbar from "../components/navbar/layout";
 
 export const metadata: Metadata = {
   title: "Portifólio",
@@ -15,23 +14,22 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  params: { locale },
-}: Readonly<{
+  params,
+}: {
   children: React.ReactNode;
   params: { locale: string };
-}>) {
-  const messages = await getMessages();
+}) {
+  const { locale } = params;
+  const messages = await getMessages({ locale });
+
   return (
     <html lang={locale}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <AppRouterCacheProvider>
-            <ThemeProvider theme={theme}>
-              <Suspense fallback={<Skeleton variant="rounded" />}>
-                {children}
-              </Suspense>
-            </ThemeProvider>
-          </AppRouterCacheProvider>
+          <ThemeProvider theme={theme}>
+            <Navbar/>
+            {children}
+          </ThemeProvider>
         </NextIntlClientProvider>
       </body>
     </html>

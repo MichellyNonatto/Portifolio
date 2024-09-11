@@ -1,6 +1,9 @@
 {
-    "HomePage": {
-      "title": "Olá mundo!",
-      "about": "Sobre esta página..."
-    }
+  "Navbar": {
+    "home": "Menu",
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "skills": "Skills",
+    "contact": "Contato"
   }
+}
