@@ -5,5 +5,10 @@
     "projects": "Projects",
     "skills": "Skills",
     "contact": "Contact"
+  },
+  "Home": {
+    "title": "Hey there I'm Michelly",
+    "subtitle": "Systems Analyst and developer",
+    "alt": "Illustration of a young developer smiling while using an Apple laptop. She is wearing a black T-shirt with a minimalist logo and large headphones, sitting at a work desk. Her hair is long and curly, creating a relaxed and focused atmosphere."
   }
 }

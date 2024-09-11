@@ -3,7 +3,12 @@
     "home": "Menu",
     "about": "Sobre mim",
     "projects": "Projetos",
-    "skills": "Skills",
+    "skills": "Habilidades",
     "contact": "Contato"
+  },
+  "Home": {
+    "title": "Olá, eu sou a Michelly",
+    "subtitle": "Analista de Sistemas e desenvolvedora",
+    "alt": "Ilustração de uma jovem desenvolvedora sorrindo enquanto usa um laptop da Apple. Ela está usando uma camiseta preta com um logo minimalista e grandes fones de ouvido, sentada em uma mesa de trabalho. Seu cabelo é longo e encaracolado, criando uma atmosfera descontraída e focada."
   }
 }
