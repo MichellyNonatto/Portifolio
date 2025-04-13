@@ -10,6 +10,7 @@ export default function About() {
     <Box
       className="flex m-8 justify-evenly flex-wrap gap-28"
       component="section"
+      id="about"
     >
       <CardPrimary
         title={translation("0.title")}
