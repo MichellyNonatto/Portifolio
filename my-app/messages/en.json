@@ -17,7 +17,7 @@
       "subtitle": "Michelly Nonato",
       "username": "@MichellyNonatto",
       "body": "iOS Developer at iFood Brazil and a graduating student in systems Analysis snd Development at IFSP Bragança",
-       "alt": "Illustration of a young developer smiling while using an Apple laptop. She is wearing a black T-shirt with a minimalist logo and large headphones, sitting at a work desk. Her hair is long and curly, creating a relaxed and focused atmosphere."
+      "alt": "Illustration of a young developer smiling while using an Apple laptop. She is wearing a black T-shirt with a minimalist logo and large headphones, sitting at a work desk. Her hair is long and curly, creating a relaxed and focused atmosphere."
     },
     {
       "title": "Education",
@@ -44,5 +44,50 @@
         }
       ]
     }
-  ]
+  ],
+  "Contact": {
+    "from": {
+      "id": "name",
+      "type": "text",
+      "title": "Your Name",
+      "placeholder": "Steve Jobs",
+      "content": "Please enter your full name"
+    },
+    "reply": {
+      "id": "reply",
+      "type": "email",
+      "title": "Email Address",
+      "placeholder": "you@example.com",
+      "content": "We'll use this to reply to you"
+    },
+    "topic": {
+      "id": "topic",
+      "type": "text",
+      "title": "Message Topic",
+      "placeholder": "Feedback, Proposal, Question...",
+      "content": "Briefly describe the purpose of your message"
+    },
+    "subject": {
+      "id": "suject",
+      "type": "text",
+      "title": "Message Content",
+      "placeholder": "Tell us more about your topic",
+      "content": "Write your message in detail here"
+    },
+    "submit": {
+      "state": "Send",
+      "load": "Sending..."
+    },
+    "messages": {
+      "error": "Error submitting the form. Please try again.",
+      "success": "Form submitted successfully!",
+      "errorName": "Please enter your name.",
+      "errorEmail": "Please enter a valid email.",
+      "errorTopic": "Please enter the subject.",
+      "errorSubject": "Please enter the content of your message.",
+      "invalidEmail":  "Please enter a valid email address."
+    },
+    "alt":"A stylized illustration of an envelope being sent, representing the action of sending an email. The envelope is slightly open and tilted, with a sheet of paper emerging from it. Lines or motion elements around it suggest movement, reinforcing the idea of delivery. The style is clean and modern, featuring soft colors and minimalist design elements.",
+    "title": "Contact Me"
+  }
 }

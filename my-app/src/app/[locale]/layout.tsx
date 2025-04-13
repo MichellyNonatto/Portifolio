@@ -6,6 +6,7 @@ import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@mui/material/styles";
 import Navbar from "../components/navbar/layout";
+import Contact from "./(overview)/(contact)/page";
 
 export const metadata: Metadata = {
   title: "Portifólio",
@@ -27,8 +28,11 @@ export default async function RootLayout({
       <body>
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider theme={theme}>
-            <Navbar/>
-            {children}
+            <Navbar />
+            <div className="flex flex-col gap-16">
+              {children}
+              <Contact />
+            </div>
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

@@ -60,7 +60,7 @@ export const CardPrimary: React.FC<CardPrimaryProps> = ({
         <div className="flex items-center justify-center">
           <Image
             src={image.src}
-            layout="intrinsic" // Considere se outro layout é mais apropriado
+            layout="intrinsic" 
             alt={image.alt}
             className="w-full h-auto"
           />

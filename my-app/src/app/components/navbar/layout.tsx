@@ -43,7 +43,7 @@ const Navbar = () => {
 
   return (
     <Box
-      className="flex items-center text-center sticky top-0 z-1100 w-full"
+      className="flex items-center text-center sticky top-0 z-1100 w-full h-16"
       component="nav"
       sx={{
         bgcolor: "background.default",

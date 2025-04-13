@@ -18,7 +18,7 @@
       "subtitle": "Michelly Nonato",
       "username": "@MichellyNonatto",
       "body": "Desenvolvedora iOS no iFood Brasil e graduanda em Análise e Desenvolvimento de Sistemas pelo IFSP Bragança",
-       "alt": "Ilustração de uma jovem desenvolvedora sorrindo enquanto usa um laptop da Apple. Ela está vestindo uma camiseta preta com um logotipo minimalista e grandes fones de ouvido, sentada em uma mesa de trabalho. Seu cabelo é longo e encaracolado, criando uma atmosfera relaxada e focada."
+      "alt": "Ilustração de uma jovem desenvolvedora sorrindo enquanto usa um laptop da Apple. Ela está vestindo uma camiseta preta com um logotipo minimalista e grandes fones de ouvido, sentada em uma mesa de trabalho. Seu cabelo é longo e encaracolado, criando uma atmosfera relaxada e focada."
     },
     {
       "type": "Education",
@@ -47,5 +47,50 @@
         }
       ]
     }
-  ]
+  ],
+  "Contact": {
+    "from": {
+      "id": "contact",
+      "type": "text",
+      "title": "Seu Nome",
+      "placeholder": "Steve Jobs",
+      "content": "Por favor, insira seu nome completo"
+    },
+    "reply": {
+      "id": "reply",
+      "type": "email",
+      "title": "Endereço de E-mail",
+      "placeholder": "você@exemplo.com",
+      "content": "Usaremos este e-mail para responder a você"
+    },
+    "topic": {
+      "id": "topic",
+      "type": "text",
+      "title": "Assunto da Mensagem",
+      "placeholder": "Feedback, Proposta, Dúvida...",
+      "content": "Descreva brevemente o objetivo da sua mensagem"
+    },
+    "subject": {
+      "id": "subject",
+      "type": "text",
+      "title": "Conteúdo da Mensagem",
+      "placeholder": "Fale mais sobre o seu assunto",
+      "content": "Escreva sua mensagem detalhadamente aqui"
+    },
+    "submit": {
+      "state": "Enviar",
+      "load": "Enviando..."
+    },
+    "messages": {
+      "error": "Erro ao enviar o formulário. Tente novamente.",
+      "success": "Formulário enviado com sucesso!",
+      "errorName": "Por favor, insira seu nome.",
+      "errorEmail": "Por favor, insira um e-mail válido.",
+      "errorTopic": "Por favor, insira o assunto.",
+      "errorSubject": "Por favor, insira o conteúdo da mensagem.",
+      "invalidEmail":  "Por favor, insira o conteúdo da mensagem."
+    },
+    "alt":"Ilustração estilizada de um envelope sendo enviado, simbolizando o envio de um e-mail. O envelope está parcialmente aberto e inclinado, com uma folha de papel visível saindo dele. Há linhas ou formas ao redor que indicam movimento, reforçando a ideia de envio ou entrega. O estilo é limpo e moderno, com cores suaves e elementos minimalistas.",
+    "title": "Entre em contato"
+  }
 }
