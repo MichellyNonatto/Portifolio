@@ -3,6 +3,7 @@ import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import Email from "../../../../../public/emailSend.svg";
 import { useTranslations } from "next-intl";
+import { Footer } from "@/app/components/footer/layout";
 
 
 export default function Contact() {
@@ -10,9 +11,10 @@ export default function Contact() {
 
   return (
     <Box
-      className="flex m-8 justify-between gap-8"
+      className="flex flex-col gap-8"
       component="section"
     >
+      <div  className="flex m-8 justify-between gap-8">
       <div className="w-1/2">
         <FormsPresentation />
       </div>
@@ -34,6 +36,8 @@ export default function Contact() {
           className="w-auto h-auto"
         />
       </div>
+      </div>
+      <Footer />
     </Box>
 
   );

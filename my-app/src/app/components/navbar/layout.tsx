@@ -18,7 +18,11 @@ import { Link } from "@/i18n/routing";
 import { useState } from "react";
 import MenuOpenIcon from "@mui/icons-material/MenuOpen";
 
-const Navbar = () => {
+interface NavbarProps {
+  className?: string;
+}
+
+const Navbar = ({ className }: NavbarProps) => {
   const isMobile = useMediaQuery("(max-width:780px)");
   const t = useTranslations("Navbar");
 
@@ -43,7 +47,7 @@ const Navbar = () => {
 
   return (
     <Box
-      className="flex items-center text-center sticky top-0 z-1100 w-full h-16"
+      className={`flex items-center text-center sticky top-0 z-1100 w-full h-16 ${className ?? ""}`}
       component="nav"
       sx={{
         bgcolor: "background.default",
