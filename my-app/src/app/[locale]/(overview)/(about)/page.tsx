@@ -1,7 +1,7 @@
 import { CardPrimary } from "@/app/components/cardPrimary/layout";
 import { Box } from "@mui/material";
 import { useTranslations } from "next-intl";
-import Avatar from "../../../../../public/avatarAbout.jpg";
+import Avatar from "@public/avatarAbout.jpg";
 
 export default function About() {
   const translation = useTranslations("About");

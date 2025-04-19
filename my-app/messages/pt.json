@@ -92,5 +92,16 @@
     },
     "alt":"Ilustração estilizada de um envelope sendo enviado, simbolizando o envio de um e-mail. O envelope está parcialmente aberto e inclinado, com uma folha de papel visível saindo dele. Há linhas ou formas ao redor que indicam movimento, reforçando a ideia de envio ou entrega. O estilo é limpo e moderno, com cores suaves e elementos minimalistas.",
     "title": "Entre em contato"
+  },
+  "Projects": {
+    "notLicense": "Sem licença",
+    "update": "Atualizado",
+    "notDescription": "Sem descrição",
+    "pagination": {
+      "next": "Próximo",
+      "prev": "Anterior",
+      "page": "Página",
+      "of": "de"
+    }
   }
 }

@@ -1,5 +1,5 @@
-import PanelHome from "../../../public/panelBackground.jpg";
-import PanelAvatar from "../../../public/avatarPanel.svg";
+import PanelHome from "@public/panelBackground.jpg";
+import PanelAvatar from "@public/avatarPanel.svg";
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";

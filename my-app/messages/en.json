@@ -89,5 +89,16 @@
     },
     "alt":"A stylized illustration of an envelope being sent, representing the action of sending an email. The envelope is slightly open and tilted, with a sheet of paper emerging from it. Lines or motion elements around it suggest movement, reinforcing the idea of delivery. The style is clean and modern, featuring soft colors and minimalist design elements.",
     "title": "Contact Me"
+  },
+  "Projects": {
+    "notLicense": "Not license",
+    "update":"Update",
+    "notDescription": "Not description available",
+    "pagination": {
+      "next": "Next",
+      "prev": "Previous",
+      "page": "Page",
+      "of": "of"
+    }
   }
 }
