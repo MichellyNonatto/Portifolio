@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import { getMessages } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 import { ThemeProvider } from "@mui/material/styles";
-import Navbar from "../components/navbar/layout";
+import Navbar from "../components/navbar/Navbar";
 import Contact from "./(overview)/(contact)/page";
 
 export const metadata: Metadata = {

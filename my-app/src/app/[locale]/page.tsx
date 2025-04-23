@@ -3,7 +3,7 @@ import PanelAvatar from "@public/avatarPanel.svg";
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Panel } from "../components/panel/layout";
+import { Panel } from "../components/panel/Panel";
 import { Box, Typography } from "@mui/material";
 import About from "./(overview)/(about)/page";
 

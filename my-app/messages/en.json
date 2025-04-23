@@ -85,14 +85,14 @@
       "errorEmail": "Please enter a valid email.",
       "errorTopic": "Please enter the subject.",
       "errorSubject": "Please enter the content of your message.",
-      "invalidEmail":  "Please enter a valid email address."
+      "invalidEmail": "Please enter a valid email address."
     },
-    "alt":"A stylized illustration of an envelope being sent, representing the action of sending an email. The envelope is slightly open and tilted, with a sheet of paper emerging from it. Lines or motion elements around it suggest movement, reinforcing the idea of delivery. The style is clean and modern, featuring soft colors and minimalist design elements.",
+    "alt": "A stylized illustration of an envelope being sent, representing the action of sending an email. The envelope is slightly open and tilted, with a sheet of paper emerging from it. Lines or motion elements around it suggest movement, reinforcing the idea of delivery. The style is clean and modern, featuring soft colors and minimalist design elements.",
     "title": "Contact Me"
   },
   "Projects": {
     "notLicense": "Not license",
-    "update":"Update",
+    "update": "Update",
     "notDescription": "Not description available",
     "pagination": {
       "next": "Next",
@@ -100,5 +100,181 @@
       "page": "Page",
       "of": "of"
     }
+  },
+  "Skills": {
+    "graphic": [
+      "team work",
+      "communication",
+      "organization",
+      "proactivity",
+      "creativity"
+    ],
+    "learning": [
+      {
+        "title": "Node",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg",
+        "date": "2025-01-01",
+        "body": [
+          {
+            "title": "Web systems development",
+            "subtitle": "IFSP - 6º Semester"
+          }
+        ]
+      },
+      {
+        "title": "Swift",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/swift/swift-original.svg",
+        "date": "2024-04-01",
+        "body": [
+          {
+            "title": "100 Days of Swift",
+            "subtitle": "Hacking with Swift"
+          },
+          {
+            "title": "SwiftUI",
+            "subtitle": "Kodeco"
+          }
+        ]
+      },
+      {
+        "title": "Kotlin",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg",
+        "date": "2023-10-01",
+        "body": [
+          {
+            "title": "Read Documentation",
+            "subtitle": "Self-learning"
+          },
+          {
+            "title": "Back-end for Kotlin",
+            "subtitle": "DIO + NTT Data"
+          }
+        ]
+      },
+      {
+        "title": "Next",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+        "date": "2024-01-01",
+        "body": [
+          {
+            "title": "Read Documentation",
+            "subtitle": "Self-learning"
+          },
+          {
+            "title": "NLW - ReactJS",
+            "subtitle": "Rocketseat"
+          }
+        ]
+      },
+      {
+        "title": "React",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg",
+        "date": "2022-01-01",
+        "body": [
+          {
+            "title": "Full Stack Developer",
+            "subtitle": "Proa"
+          },
+          {
+            "title": "NLW - ReactJS",
+            "subtitle": "Rocketseat"
+          }
+        ]
+      },
+      {
+        "title": "Python",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg",
+        "date": "2023-01-01",
+        "body": [
+          {
+            "title": "Programming Language III",
+            "subtitle": "IFSP - 3º Semester"
+          },
+          {
+            "title": "Programming Essentials in Python",
+            "subtitle": "PCAP"
+          },
+          {
+            "title": "Programming Language II",
+            "subtitle": "IFSP - 2º Semester"
+          }
+        ]
+      },
+      {
+        "title": "Django",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/django/django-plain.svg",
+        "date": "2023-08-01",
+        "body": [
+          {
+            "title": "Programming Language III",
+            "subtitle": "IFSP - 3º Semester"
+          }
+        ]
+      },
+      {
+        "title": "HTML and CSS",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg",
+        "date": "2022-01-01",
+        "body": [
+          {
+            "title": "Training Front-end",
+            "subtitle": "Alura Latam"
+          },
+          {
+            "title": "Full Stack Developer",
+            "subtitle": "Proa"
+          }
+        ]
+      },
+      {
+        "title": "Tailwind CSS",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg",
+        "date": "2022-01-01",
+        "body": [
+          {
+            "title": "Programming Language III",
+            "subtitle": "IFSP - 3º Semester"
+          },
+          {
+            "title": "Read Documentation",
+            "subtitle": "Self-learning"
+          }
+        ]
+      },
+      {
+        "title": "JavaScript",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg",
+        "date": "2022-01-01",
+        "body": [
+          {
+            "title": "Training Front-end",
+            "subtitle": "Alura Latam"
+          },
+          {
+            "title": "Full Stack Developer",
+            "subtitle": "Proa"
+          }
+        ]
+      },
+      {
+        "title": "Git",
+        "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
+        "date": "2022-01-01",
+        "body": [
+          {
+            "title": "Training Front-end",
+            "subtitle": "Alura Latam"
+          },
+          {
+            "title": "Full Stack Developer",
+            "subtitle": "Proa"
+          },
+          {
+            "title": "Git and GitHub from basic to avanced",
+            "subtitle": "Udemy"
+          }
+        ]
+      }
+    ]
   }
 }

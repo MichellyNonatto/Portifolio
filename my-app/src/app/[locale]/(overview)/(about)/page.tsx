@@ -1,4 +1,4 @@
-import { CardPrimary } from "@/app/components/cardPrimary/layout";
+import { CardPrimary } from "@/app/components/cardPrimary/CardPrimary";
 import { Box } from "@mui/material";
 import { useTranslations } from "next-intl";
 import Avatar from "@public/avatarAbout.jpg";

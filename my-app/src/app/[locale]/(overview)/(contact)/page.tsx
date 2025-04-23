@@ -1,9 +1,9 @@
-import { FormsPresentation } from "@/app/components/forms/layout";
+import { FormsPresentation } from "@/app/components/forms/FormsPresentation";
 import { Box, Typography } from "@mui/material";
 import Image from "next/image";
 import Email from "@public/emailSend.svg";
 import { useTranslations } from "next-intl";
-import { Footer } from "@/app/components/footer/layout";
+import { Footer } from "@/app/components/footer/Footer";
 
 export default function Contact() {
   const translation = useTranslations("Contact");

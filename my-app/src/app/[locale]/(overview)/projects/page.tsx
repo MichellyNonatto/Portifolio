@@ -2,10 +2,10 @@
 
 import { useState } from "react";
 import { Box, Skeleton, Typography, Button } from "@mui/material";
-import { Panel } from "@/app/components/panel/layout";
+import { Panel } from "@/app/components/panel/Panel";
 import { useGitHubAPI } from "@/app/components/hooks/useGitHubAPI";
-import { CardViewComponent } from "@/app/components/cardViewComponent/layout";
-import { LanguageBadge } from "@/app/components/cardViewComponent/components/languageBadge";
+import { CardViewComponent } from "@/app/components/cardViewComponent/CardViewComponent";
+import { LanguageBadge } from "@/app/components/cardViewComponent/components/LanguageBadge";
 import langColors from "@/app/lib/github-lang-colors";
 import { formatDistanceToNow } from "date-fns";
 import { enUS, ptBR } from "date-fns/locale";
@@ -13,7 +13,6 @@ import { useTranslations, useLocale } from "next-intl";
 import { ForkRight, Link } from "@mui/icons-material";
 import { Repository } from "@/services/request";
 
-// Função para obter a cor da linguagem
 const getLanguageColor = (language: string): string => {
     return langColors[language] || "#FFA500";
 };
