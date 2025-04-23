@@ -4,7 +4,7 @@ import React from "react";
 import { Paper, Typography } from "@mui/material";
 import { purple } from "@mui/material/colors";
 import Image from "next/image";
-import { Footer } from "./components/Footer";
+import { Footer } from "./components/footer";
 
 interface CardViewComponentProps {
     header: {

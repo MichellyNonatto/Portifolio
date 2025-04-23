@@ -11,7 +11,8 @@ import { enUS, ptBR } from "date-fns/locale";
 import { useTranslations, useLocale } from "next-intl";
 import { ForkRight, Link } from "@mui/icons-material";
 import { Repository } from "@/services/request";
-import { LanguageBadge } from "@/app/components/cardViewComponent/components/LanguageBadge";
+import { LanguageBadge } from "@/app/components/cardViewComponent/components/languageBadge";
+
 
 const getLanguageColor = (language: string): string => {
     return langColors[language] || "#FFA500";
